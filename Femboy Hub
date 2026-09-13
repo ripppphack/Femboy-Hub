@@ -2,7 +2,7 @@ local GameID = game.PlaceId
 
 if GameID == 394506555 then
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ripppphack/Femboy-Hub/refs/heads/main/Loader"))()
+    loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=FemboyHubGlue"))("FemboyHubGlue")
     
 else
     print("ไม่พบ Game ID ❌")
