@@ -1,6 +1,15 @@
 local GameID = game.PlaceId
 
 if GameID == 394506555 then
+    local player = game.Players.LocalPlayer
+    for i = 1, 15 do
+        local backpack = player:FindFirstChild("Backpack")
+        if backpack and #backpack:GetChildren() > 0 then 
+            break 
+        end
+        task.wait(1)
+    end
+
     loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=GluePiece"))("GluePiece")
 else
     print("ไม่พบ Game ID ❌")
