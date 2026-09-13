@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=NormalLoader"))("NormalLoader")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ripppphack/Femboy-Hub/refs/heads/main/Femboy%20Hub'))()
