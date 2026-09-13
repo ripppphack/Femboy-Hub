@@ -1,9 +1,7 @@
 local GameID = game.PlaceId
 
 if GameID == 394506555 then
-
-    loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=FemboyHubGlue"))("FemboyHubGlue")
-    
+    loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=GluePiece"))("GluePiece")
 else
     print("ไม่พบ Game ID ❌")
     return
